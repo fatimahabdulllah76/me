@@ -1,0 +1,83 @@
+/* ITF Lab 5 CSS file */
+
+#navbar
+{background-color: #BC5510;
+}
+
+#navbar ul {display: flex;
+	max-width:80em;
+	margin:0 auto;
+	padding:0;           
+	list-style:none;
+	justify-content: center;
+ }
+
+
+
+#navbar a{display: inline-block;
+	width:6em;
+	text-align: center;
+	line-height:2em;
+	text-decoration:none;
+	color: #ffffff;
+	background: none;
+}
+
+#navbar a :hover{
+	background-color:#A50613;
+  }
+
+
+
+#maincontainer {
+	display: flex;
+	padding: 10px;
+}
+
+#main 	{display: flex 4;
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	box-shadow: 0px 0px 20px 3px #aaa;
+}
+
+.sidebar {  flex: 1;
+margin-left: 20px;
+padding: 20px;
+}
+
+#header
+{
+	color:#E60418;
+
+}
+#header h1{
+font-weight: normal;
+}
+
+#main,
+#maincontainer,
+#header,
+#header{
+	max-width: 80em;
+	margin-left:auto
+	margin-right:auto;
+}
+
+body 
+{
+background-color: #cccccc;
+margin: 0;
+}
+
+ul{list-style: square;}
+
+.imageleft{ float: left;
+	margin-right: 15px;
+}
+
+
+
+table, th, td
+{
+border: 1px solid black;
+}
