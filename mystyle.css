@@ -1,83 +1,105 @@
-/* ITF Lab 5 CSS file */
+body {
+    background-color: #090909;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+    display: block;
+font-size: 20px;
+font-weight: 700;
+color: white;
+font-family: sans-serif;
+margin-bottom: 20px;
+text-transform: uppercase;
+letter-spacing: 1px;}
 
-#navbar
-{background-color: #BC5510;
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0 auto;
+background-color: #111; text-align: center;
+border-radius: 0 0 16px 16px;
 }
 
-#navbar ul {display: flex;
-	max-width:80em;
-	margin:0 auto;
-	padding:0;           
-	list-style:none;
-	justify-content: center;
- }
-
-
-
-#navbar a{display: inline-block;
-	width:6em;
-	text-align: center;
-	line-height:2em;
-	text-decoration:none;
-	color: #ffffff;
-	background: none;
+nav li {
+display: inline-block;
 }
 
-#navbar a :hover{
-	background-color:#A50613;
-  }
-
-
-
-#maincontainer {
-	display: flex;
-	padding: 10px;
+nav li a{ display: inline-block
+;
 }
 
-#main 	{display: flex 4;
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
-	box-shadow: 0px 0px 20px 3px #aaa;
+nav il t
+display: inline-block;
+nav li a {
+display: inline-block;
+color: rgb(101, 90, 90);
+text-decoratin: none;
+padding: 15px 25px;
 }
 
-.sidebar {  flex: 1;
-margin-left: 20px;
-padding: 20px;
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(232, 232, 232);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-#header
-{
-	color:#E60418;
+.images {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+box-sizing: border-box;
+flex-wrap: nowrap;
+padding: 40px 20px;
+max-width: 100vw;}
 
-}
-#header h1{
-font-weight: normal;
-}
-
-#main,
-#maincontainer,
-#header,
-#header{
-	max-width: 80em;
-	margin-left:auto
-	margin-right:auto;
+.images a { flex: 1; 
+    max-width: 33.33%;
+    text-align: center;
 }
 
-body 
-{
-background-color: #cccccc;
-margin: 0;
-}
-
-ul{list-style: square;}
-
-.imageleft{ float: left;
-	margin-right: 15px;
+.image-bar {display: flex;
+    gap: 20px;
+    margin: 20px;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+    border: 2px;
 }
 
 
 
-table, th, td
-{
-border: 1px solid black;
+
+.images a image{ display: block;
+width: 100%;
+height: auto;
+border-radius: 12px;
+transition: transform 0.3s ease, box-shadow 0.3s ease; 
+object-fit: cover;
+}
+
+.images a img:hover {
+transform567: scale(1.05);
+box-shadow: 0 12px 24px rgba(21, 18, 18, 0.925);
+
+}
+
+
+
+#navbar {
+    display: inline-block;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: monospace;
+    color: #ffffff;
+}
+#main {
+    display: flex;
+}
+footer {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px;
 }
